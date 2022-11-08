@@ -1,9 +1,10 @@
 import "./App.css";
+import "./style.scss";
 import Router from "./shared/Router";
 
 function App() {
   return (
-    <div className="App">
+    <div className="mobile-wrapper">
       <Router />
     </div>
   );

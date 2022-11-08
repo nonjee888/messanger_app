@@ -1,7 +1,13 @@
-import React from "react";
+import ChatRoom from "../components/chat/ChatRoom";
+import MenuBar from "../shared/MenuBar";
 
 const ChatPage = () => {
-  return <div>ChatPage</div>;
+  return (
+    <>
+      <MenuBar />
+      <ChatRoom />
+    </>
+  );
 };
 
 export default ChatPage;

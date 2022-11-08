@@ -1,7 +1,14 @@
 import React from "react";
+import MyInfo from "../components/myInfo/MyInfo";
+import MenuBar from "../shared/MenuBar";
 
 const MyInfoPage = () => {
-  return <div>MyInfoPage</div>;
+  return (
+    <>
+      <MenuBar />
+      <MyInfo />
+    </>
+  );
 };
 
 export default MyInfoPage;
