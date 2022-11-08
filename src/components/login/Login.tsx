@@ -14,25 +14,23 @@ const Login = () => {
   return (
     <div className="All">
       <div className="loginWrap">
-        <div className="elemWrap">
-          <div className="inputWrap">
-            <input className="input" ref={inputFocus} placeholder="Email" />
-          </div>
-          <div className="inputWrap">
-            <input className="input" placeholder="Password" />
-          </div>
-          <div>
-            <button className="btn">Log in</button>
-          </div>
-          <button
-            className="btn"
-            onClick={() => {
-              navigate("/signup");
-            }}
-          >
-            Sign up
-          </button>
+        <div className="inputWrap">
+          <input className="input" ref={inputFocus} placeholder="Email" />
         </div>
+        <div className="inputWrap">
+          <input className="input" placeholder="Password" />
+        </div>
+        <div>
+          <button className="btn">Log in</button>
+        </div>
+        <button
+          className="btn"
+          onClick={() => {
+            navigate("/signup");
+          }}
+        >
+          Sign up
+        </button>
       </div>
     </div>
   );

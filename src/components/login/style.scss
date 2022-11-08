@@ -1,11 +1,5 @@
-.loginWrap {
-  display: flex;
-  margin: 0% auto;
-  height: 100%;
-  max-width: 428px;
-  background: linear-gradient(to bottom, #cadced 33%, #002c5528);
-  box-shadow: 0 2px 5px 1px rgba(12, 12, 12, 0.319);
-  .elemWrap {
+.All {
+  .loginWrap {
     margin: 100% auto;
     .inputWrap {
       position: relative;
@@ -16,9 +10,9 @@
       box-shadow: 0 2px 5px 1px rgba(50, 47, 52, 0.16);
       border-radius: 20px;
       background: #fff;
-      margin-bottom: 3%;
+      margin-bottom: 5%;
       .input {
-        margin-left: 8%;
+        margin-left: 7%;
         width: 190px;
         height: 25px;
         border: none;
@@ -33,7 +27,7 @@
       height: 30px;
       border: none;
       border-radius: 25px;
-      margin-bottom: 3%;
+      margin-bottom: 5%;
       cursor: pointer;
       box-shadow: 0 2px 5px 1px rgba(12, 12, 12, 0.136);
     }
