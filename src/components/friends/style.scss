@@ -1,0 +1,93 @@
+$stShadow: 0 2px 5px 1px rgba(50, 47, 52, 0.16);
+$stFont: "Nanum Gothic Coding", monospace;
+$stFont-size: 15px;
+$stSmallFont: 13px;
+/*FriendList*/
+.Pages {
+  .friends {
+    margin: 5% 0 3% 22%;
+    font: $stFont;
+    font-size: $stFont-size;
+    font-weight: bold;
+  }
+
+  .myProfile {
+    cursor: pointer;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 18% 60%;
+    .myImgWrap {
+      margin: 15%;
+      width: 50px;
+      height: 50px;
+      border-radius: 100px;
+      background-color: #ececec;
+      object-fit: cover;
+      overflow: hidden;
+    }
+    .myIdWrap {
+      margin: 14% 0 0 10%;
+      font-weight: 500;
+      float: left;
+    }
+  }
+
+  .reckonFriends {
+    margin: 4% 0 0 22%;
+    font-size: $stSmallFont;
+  }
+  /*FriendMutualCard*/
+  .mutualProfile {
+    margin-top: 3%;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    background-color: #ececec;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .mutualIdWrap {
+    margin-top: 2%;
+    .muId {
+      margin: 10% 0 0 3%;
+      font-size: $stSmallFont;
+    }
+  }
+  .divider {
+    margin: 4% 0 0 22%;
+    width: 73%;
+    border-top: 1px white solid;
+  }
+  .friendsNum {
+    margin: 4% 0 2% 22%;
+    font-size: $stSmallFont;
+  }
+}
+
+/*FriendCard*/
+.friendCard {
+  width: 100%;
+  height: 8%;
+  cursor: pointer;
+
+  // background-color: rgb(187, 155, 94);
+  .friendProfile {
+    display: grid;
+    margin-left: 22%;
+    align-items: center;
+    grid-template-columns: 18% 60% 22%;
+    .friendImgWrap {
+      width: 40px;
+      height: 40px;
+      border-radius: 100px;
+      background-color: #ececec;
+      object-fit: cover;
+      overflow: hidden;
+    }
+    .friendIdWrap {
+      margin-left: 7%;
+      font-weight: 500;
+      float: left;
+    }
+  }
+}
