@@ -7,7 +7,7 @@ const MyInfo = () => {
       <div className="infoWrap">
         <div className="profileWrap">
           <div className="profileImg">
-            <img style={{ margin: "28px 0 0 15px" }} src={user} />
+            <img style={{ margin: "28px 0 0 15px" }} src={user} alt="user" />
           </div>
           <div className="idWrap">노은지 </div>
         </div>
