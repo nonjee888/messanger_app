@@ -1,4 +1,9 @@
+$stShadow: 0 2px 5px 1px rgba(50, 47, 52, 0.16);
+$stFont: "Nanum Gothic Coding", monospace;
+$stFont-size: 15px;
+
 .All {
+  display: flex;
   .loginWrap {
     margin: 100% auto;
     .inputWrap {
@@ -7,7 +12,8 @@
       align-items: center;
       width: 220px;
       height: 30px;
-      box-shadow: 0 2px 5px 1px rgba(50, 47, 52, 0.16);
+
+      box-shadow: $stShadow;
       border-radius: 20px;
       background: #fff;
       margin-bottom: 5%;
@@ -16,10 +22,12 @@
         width: 190px;
         height: 25px;
         border: none;
+        font-size: $stFont-size;
         background: transparent;
       }
       .input::placeholder {
         text-align: center;
+        font-size: $stFont-size;
       }
     }
     .btn {
@@ -29,7 +37,10 @@
       border-radius: 25px;
       margin-bottom: 5%;
       cursor: pointer;
-      box-shadow: 0 2px 5px 1px rgba(12, 12, 12, 0.136);
+      vertical-align: middle;
+      font-weight: bold;
+      font-size: $stFont-size;
+      box-shadow: $stShadow;
     }
   }
 }

@@ -1,0 +1,28 @@
+$stShadow: 0 2px 5px 1px rgba(50, 47, 52, 0.16);
+$stFont: "Nanum Gothic Coding", monospace;
+$stFont-size: 18px;
+
+.Pages {
+  .infoWrap {
+    width: 300px;
+    height: 400px;
+    margin-left: 20%;
+    .profileWrap {
+      padding-top: 40%;
+      margin-left: 38%;
+      .profileImg {
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        background-color: #ececec;
+        object-fit: cover;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      .idWrap {
+        margin: 5% 0 0 9%;
+        font-size: $stFont-size;
+      }
+    }
+  }
+}

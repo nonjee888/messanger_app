@@ -11,7 +11,7 @@ const SignUp = () => {
         </div>
         <button className="btn">Email 중복확인</button>
         <div className="inputWrap">
-          <input className="input" placeholder="nickname" />
+          <input className="input" placeholder="ID" />
         </div>
         <button className="btn">ID 중복확인</button>
         <div className="inputWrap">
@@ -21,7 +21,7 @@ const SignUp = () => {
           <input className="input" placeholder="Password Check" />
         </div>
         <div>
-          <button className="btn">Sign up</button>
+          <button className="btn-signUp">Sign up</button>
         </div>
         <button
           className="btn"

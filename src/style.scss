@@ -6,10 +6,17 @@
 }
 .All {
   width: 100%;
-  display: flex;
   margin: 0% auto;
   height: 100%;
   max-width: 428px;
-  background: linear-gradient(to bottom, #cadced 33%, #002c5528);
+  background: linear-gradient(to bottom, #cadced, #002c5538, #fff);
+  box-shadow: 0 2px 5px 1px rgba(12, 12, 12, 0.319);
+}
+.Pages {
+  width: 100%;
+  margin: 0% auto;
+  height: 100%;
+  max-width: 428px;
+  background: linear-gradient(to bottom, #cadced, #002c5538, #fff);
   box-shadow: 0 2px 5px 1px rgba(12, 12, 12, 0.319);
 }

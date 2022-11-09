@@ -1,13 +1,18 @@
+$stShadow: 0 2px 5px 1px rgba(50, 47, 52, 0.16);
+$stFont: "Nanum Gothic Coding", monospace;
+$stFont-size: 15px;
+
 .All {
+  display: flex;
   .elemWrap {
-    margin: 60% auto;
+    margin: 50% auto;
     .inputWrap {
       position: relative;
       display: flex;
       align-items: center;
       width: 220px;
       height: 30px;
-      box-shadow: 0 2px 5px 1px rgba(50, 47, 52, 0.16);
+      box-shadow: $stShadow;
       border-radius: 20px;
       background: #fff;
       margin-bottom: 5%;
@@ -20,6 +25,7 @@
       }
       .input::placeholder {
         text-align: center;
+        font-size: $stFont-size;
       }
     }
     .btn {
@@ -29,7 +35,19 @@
       border-radius: 25px;
       margin-bottom: 5%;
       cursor: pointer;
-      box-shadow: 0 2px 5px 1px rgba(50, 47, 52, 0.169);
+      box-shadow: $stShadow;
+      font-size: $stFont-size;
+    }
+    .btn-signUp {
+      width: 220px;
+      height: 30px;
+      border: none;
+      border-radius: 25px;
+      margin: 30% 0 5% 0;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: $stFont-size;
+      box-shadow: $stShadow;
     }
   }
 }
