@@ -4,7 +4,6 @@ import MenuBar from "../shared/MenuBar";
 const ChatPage = () => {
   return (
     <>
-      <MenuBar />
       <ChatRoom />
     </>
   );
